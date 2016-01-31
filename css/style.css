@@ -1,0 +1,31 @@
+.navbar {
+  background-color: white;
+  margin-bottom: 0px; }
+
+[ui-view] {
+  min-height: 500px;
+  background-image: url("../images/background.jpg"); }
+
+.view-containers {
+  min-height: 500px;
+  color: white;
+  font: 18px Sans-Serif;
+  letter-spacing: -1px;
+  background: black;
+  /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  margin: 0px; }
+
+.inner {
+  color: white;
+  border-radius: 1em;
+  padding: 1em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%); }
+
+#action-button {
+  background-color: #7CDDF7; }
