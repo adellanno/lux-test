@@ -6,7 +6,6 @@ workHereApp.controller("CounterCtrl", function() {
         error: function() {
           var data = { visitors: { today: 3, total: 10 } }
           displayData(data);
-          // $('#info').html('<p>An error has occurred</p>');
         },
         dataType: 'json',
         success: function(data) {
